@@ -49,7 +49,7 @@ GoodPanda/
 │           ├── resources/            # Static web resources (CSS, JS, etc.)
 │           └── WEB-INF/
 │               ├── jsp/              # JSP views
-│               └── web.xml           # Deployment descriptor
+│               └── web.xml           
 ├── queries/                         
 ├── good_panda.svg                   
 ├── build.gradle                     
@@ -72,20 +72,17 @@ GoodPanda/
 
    - Build the project with Gradle or your IDE.
 
-   - Deploy the WAR or source to Apache Tomcat or another compatible servlet container.**
-
-4. **Access the application**
-     http://localhost:8080/goodpanda/login
+   - Deploy the WAR or source to Apache Tomcat or another compatible servlet container.
    
 ## 🧪 Testing
 
 JUnit tests are written using assertEquals() and other assertions to validate controller logic and service behavior.
 
-## 🙋 Authors
+## 🙋 Author
 
 Developed by Sanjida Islam Era
 
 ## 📃 License
 
-This project is licensed under the MIT License.
+This project is licensed under the Apache 2.0 License.
 ---
