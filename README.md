@@ -28,32 +28,31 @@ GoodPanda is a structured Java web application leveraging servlets, JSP, filters
 ```
 GoodPanda/
 ├── src/
-│   └── main/
-│       ├── java/
-│       │   └── goodpanda/
-│       │       ├── controller/       # Servlet controllers
-│       │       ├── domain/           # Entity classes
-│       │       ├── dto/              # Data Transfer Objects
-│       │       ├── filter/           # Authentication and request filters
-│       │       ├── helper/           # Utility/helper classes
-│       │       ├── propertyEditor/   # Property editors for custom binding
-│       │       ├── scheduler/        # Scheduled jobs
-│       │       ├── service/          # Service layer for business logic
-│       │       ├── util/             # Utility functions
-│       │       └── validator/        # Input validators
-│       ├── resources/
-│       │   ├── images/               # Static images
-│       │   ├── log4j2.xml            # Logging configuration
-│       │   └── messages.properties   # Internationalization messages
-│       └── webapp/
-│           ├── resources/            # Static web resources (CSS, JS, etc.)
-│           └── WEB-INF/
-│               ├── jsp/              # JSP views
-│               └── web.xml           
-├── queries/                         
-├── good_panda.svg                   
-├── build.gradle                     
-└── .gitignore                        
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── goodpanda/
+│   │   │       ├── controller/       # Servlet controllers
+│   │   │       ├── domain/           # Entity classes
+│   │   │       ├── dto/              # Data Transfer Objects
+│   │   │       ├── filter/           # Authentication and request filters
+│   │   │       ├── helper/           # Utility/helper classes
+│   │   │       ├── propertyEditor/   # Property editors for custom binding
+│   │   │       ├── scheduler/        # Scheduled jobs
+│   │   │       ├── service/          # Service layer for business logic
+│   │   │       ├── util/             # Utility functions
+│   │   │       └── validator/        # Input validators
+│   │   ├── resources/
+│   │   │   ├── images/               # Static images
+│   │   │   ├── log4j2.xml            # Logging configuration
+│   │   │   └── messages.properties   # Internationalization messages
+│   │   └── webapp/
+│   │       ├── resources/            # Static web resources (CSS, JS, etc.)
+│   │       └── WEB-INF/
+│   │           ├── jsp/              # JSP views
+│   │           └── web.xml           
+│   ├── queries/                         
+│   ├── good_panda.svg                                       
+└── build.gradle                        
 ```
 ---
 
